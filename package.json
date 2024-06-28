@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "prebuild": "node insert-api-key.js",
+    "build": "echo 'Building the project...'"
+  }
+}

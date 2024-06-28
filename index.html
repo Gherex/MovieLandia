@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Land</title>
+  <link rel="icon" type="image/png" href="resources/icono-movie-land.png">
+  <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+</head>
+<body>
+  <nav class="contenedor-barra-nav">
+    <ul class="barra-nav">
+      <li><img class="inicio" src="./resources/icono-movie-land.png" draggable="false"/></li>
+      <li class="texto inicio">Inicio</li>
+      <li class="container-barra-busqueda">
+        <input type="text" placeholder="Buscar película..." id="barra-busqueda"><button id="btn-barra-busqueda">🔎</button>
+      </li>
+      <li class="texto mi-lista">Mi Lista</li>
+      <li><button class="btn-login">Log In</button></li>
+    </ul>
+    <ul class="barra-nav-responsive">
+      <li><img class="inicio" src="./resources/icono-movie-land.png" draggable="false"/></li>
+      <li><input type="checkbox" id="responsive-nav" class="toggle"><label for="responsive-nav" id="btn-nav">=</label></li>
+      <ul class="nav-responsive-desplegada">
+        <li class="container-barra-busqueda">
+          <input type="text" placeholder="Buscar película..." id="barra-busqueda"><button id="btn-barra-busqueda">🔎</button>
+        </li>
+        <li class="texto inicio">Inicio</li>
+        <li class="texto mi-lista">Mi Lista</li>
+        <li><button class="btn-login">Log In</button></li>
+      </ul>
+    </ul>
+  </nav>
+  <main class="main-container">
+    <h1>TOP-20 Películas populares de la semana</h1>
+    <div class="film-container"></div>
+    <div class="login-popup">
+      <form id="formulario">
+        <img src="./resources/user.png" draggable="false"/>
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" placeholder="Nombre de usuario" required>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" placeholder="Ingrese su contraseña" required>
+        <div class="box-visible">
+          <input type="checkbox" id="visible">
+          <label for="visible">Mostrar Contraseña</label>
+        </div>
+        <button id="submit">Iniciar Sesión</button>
+        <button id="cerrar-popup">X</button>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <h4>Creado por Germán Lagger | ✉ germilagger@hotmail.com</h4>
+  </footer>
+  <script>
+    // Esto inserta la clave API directamente en el código JavaScript
+    const apiKey = 'TMDB_API_KEY';
+  </script>
+  <script src="./app.js"></script>
+  <script src="./login.js"></script>
+</body>
+</html>
