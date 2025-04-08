@@ -1,6 +1,9 @@
 # 🎬 MovieLandia: Buscador de Películas
 
-¡Bienvenido a **MovieLandia**!  
+¡Bienvenido a **MovieLandia**!
+
+👉 **[Ver la demo en producción](https://movie-landia.netlify.app/)**
+
 Esta aplicación permite buscar información de películas utilizando la API de OMDB. Es ideal para practicar consumo de APIs.
 
 ## 📖 Descripción
