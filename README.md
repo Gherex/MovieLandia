@@ -1,14 +1,13 @@
 # 🎬 MovieLandia: Buscador de Películas
 
 ¡Bienvenido a **Buscador de Películas**!  
-Esta aplicación permite buscar información de películas utilizando la API de OMDB. Es ideal para practicar consumo de APIs y manejo de estado en React.
+Esta aplicación permite buscar información de películas utilizando la API de OMDB. Es ideal para practicar consumo de APIs.
 
 ## 📖 Descripción
-Este proyecto fue desarrollado en **JavaScript con React**, usando la API pública de OMDB para obtener datos como título, año, tipo y afiche de películas.  
+Este proyecto fue desarrollado en **JavaScript**, usando la API pública de OMDB para obtener datos como título, año, tipo y afiche de películas.  
 Es una app sencilla, ideal para aprender cómo conectar una app frontend con APIs externas.
 
 ## 🛠️ Tecnologías utilizadas
-- React
 - JavaScript
 - Fetch API
 - HTML & CSS
@@ -28,17 +27,10 @@ A continuación, algunas imágenes de la aplicación en funcionamiento:
 ## 🚀 Cómo ejecutar el proyecto
 1. Clonar este repositorio:
    ```sh
-   git clone https://github.com/Gherex/Buscador-de-peliculas.git
+   git clone https://github.com/Gherex/MovieLandia.git
    ```
-2. Instalar las dependencias:
-   ```sh
-   npm install
-   ```
-3. Ejecutar la app:
-   ```sh
-   npm run dev
-   ```
-4. Abrir en el navegador: http://localhost:5173
+2. Abrir el archivo index.html en tu navegador web.
+¡Listo! Ya podés usar la aplicación.
 
 ## 💡 Nota
 Este proyecto fue creado con fines educativos y para reforzar conceptos de desarrollo frontend y consumo de APIs.
