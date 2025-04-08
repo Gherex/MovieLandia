@@ -1,6 +1,6 @@
 # 🎬 MovieLandia: Buscador de Películas
 
-¡Bienvenido a **Buscador de Películas**!  
+¡Bienvenido a **MovieLandia**!  
 Esta aplicación permite buscar información de películas utilizando la API de OMDB. Es ideal para practicar consumo de APIs.
 
 ## 📖 Descripción
